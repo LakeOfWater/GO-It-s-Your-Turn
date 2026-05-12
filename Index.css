@@ -1,3 +1,8 @@
+body {
+    text-align: center;
+    background-color: #a7d7ed;
+}
+
 h1 {
     color: rgb(54, 69, 144);
     text-align: center;
@@ -7,21 +12,14 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-img {vertical-align: center;
-}
-
 button {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  background-color: dark rgba(34, 34, 131, 0.322);
  color: rgb(25, 16, 16);
  border: solid 2px rgb(54, 69, 144);
  border-radius: 30px 30px 30px 30px;
+ margin-top: 50px;
  width: 25%; 
  height: 50px;
-}
-
-body {
-    text-align: center;
-    background-color: #a7d7ed;
 }
 
 p {text-align: center;

@@ -6,30 +6,20 @@ const notif = document.getElementById("notif");
 const nudgeSent = document.getElementById("nudgeSent");
 
 nudgeButton.addEventListener("click", function() {
-if (notif.style.display === "none") {
-notif.style.display = "block";
-nudgeSent.style.display = "inline";
-nudgeButton.textContent = "Undo Nudge!";
-} else {
-notif.style.display = "none";
-nudgeSent.style.display = "none";
-nudgeButton.textContent = "Send Nudge";
-}
+    nudgeButton.innerHTML = "Nudge Sent!"
+    function nudgeTimer(){
+        nudgeButton.innerHTML = "Send Nudge"
+    }
+    setTimeout(nudgeTimer, 3000)
 });
 
-// practice
-document.getElementById("Nudge").addEventListener("click", buttonStuff());
 
 
-function buttonStuff() {
-if (notif.style.display === "none") {
-notif.style.display = "block";
-nudgeSent.style.display = "inline";
-nudgeButton.textContent = "Undo Nudge!";
-} else {
-notif.style.display = "none";
-nudgeSent.style.display = "none";
-nudgeButton.textContent = "Send Nudge";
-}
-}
+
+Notification.requestPermission().then(result => {
+    if (result === "granted"){
+        
+    }
+})
+
 
