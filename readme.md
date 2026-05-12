@@ -9,3 +9,5 @@
 # Add nudge feature
 # Notfications for messages sent through app
 # WEBPAGE NOTIFS
+# Display pic on notif pop-up
+# Notif sound
