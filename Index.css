@@ -1,25 +1,28 @@
 body {
     text-align: center;
-    background-color: #a7d7ed;
+    background-color: #262925;
 }
 
 h1 {
-    color: rgb(54, 69, 144);
+    color: #dad1c9;
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bold;
     padding-top: 60px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Shine Bubble', sans-serif;
 }
 
-button {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- background-color: dark rgba(34, 34, 131, 0.322);
- color: rgb(25, 16, 16);
- border: solid 2px rgb(54, 69, 144);
- border-radius: 30px 30px 30px 30px;
+button {font-family: 'Shine Bubble', sans-serif;
+ font-size: 15px;
+ background-color: rgb(24, 23, 23);
+ color: rgb(245, 245, 245);
+ margin: yellow;
+ border: none;
+ padding: rgb(92, 86, 86);
+ border-radius: 50%;
  margin-top: 50px;
- width: 25%; 
- height: 50px;
+ width: 125px; 
+ height: 125px;
 }
 
 p {text-align: center;
