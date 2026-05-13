@@ -7,17 +7,17 @@ const nudgeSent = document.getElementById("nudgeSent");
 nudgeButton.addEventListener("click", async function() {
     nudgeButton.innerHTML = "Nudge Sent!"
     function nudgeTimer(){
-        nudgeButton.innerHTML = "Nudge A Friend!"
-        audio.play();
-    setTimeout(nudgeTimer, 3000);
+        nudgeButton.innerHTML = "Nudge A Friend!";
     }
+    setTimeout(nudgeTimer, 3000);
 
     // Notification code
     const reg = await navigator.serviceWorker.register('./serviceWorker.js');
     await Notification.requestPermission();
     reg.showNotification('GO! Its Your Turn!', { 
         body: "Goooooooo", 
-        icon: "goapppic.png"
+        icon: "goapppic.png",
+        sound: "GO-It-s-Your-Turn\gosound.mp3"
     });
 
 
